@@ -1,6 +1,6 @@
 {
     "name": "marcamon/carbone",
-    "description": "Un fork de briannnesbit/Carbon pour les francophones",
+    "description": "Un fork de briannnesbitt/Carbon pour les francophones",
     "require": {
         "php": ">=5.3.0"
     },
@@ -13,5 +13,10 @@
             "name": "Jean-Marc Amon",
             "email": "jmbdilem@gmail.com"
         }
-    ]
+    ],
+    "autoload": {
+	"psr-0": {
+		"Carbon":"src"
+	}
+    }
 }
