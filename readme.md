@@ -4,7 +4,7 @@
 
 [![Build Status](https://secure.travis-ci.org/briannesbitt/Carbon.png)](http://travis-ci.org/briannesbitt/Carbon)
 
-A simple API extension for DateTime with PHP 5.3+
+Une extension simple de l'API DateTime pour PHP 5.3+
 
 ```php
 printf("Right now is %s", Carbon::now()->toDateTimeString());
